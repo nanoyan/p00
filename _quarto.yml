@@ -26,16 +26,16 @@ website:
         lang: de
       - href: output/Englisch.qmd
         text: "Englisch"
-        lang: de    
+        lang: en    
       - href: output/Franzoesisch.qmd
         text: "Französisch"
-        lang: de
+        lang: fr
       - href: output/Italienisch.qmd
         text: "Italienisch"
-        lang: de
+        lang: it
       - href: output/Raetoromanisch.qmd
         text: "Rätoromanisch"
-                       
+        lang: en                     
 
 
 lang: de
