@@ -9,63 +9,70 @@
       "label": [
         {
           "lang": "de",
-          "value": "Aufgabe"
+          "value": "Stimulus"
         }
       ],
       "entries": [
-          {
-          "id": "a11",
+        {
+          "id": "iqb_author",
           "label": [
             {
               "lang": "de",
-              "value": "Vokabular Aufgabe Dialog"
+              "value": "Entwickler:in"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+          {
+          "id": "iqb_grundfarben",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Grundfärben"
             }
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v34/se/",
+            "url": "https://w3id.org/iqb/v99/pc/",
             "allowMultipleValues": true,
             "hideNumbering": false,
             "selectionMode": "dialog"
           }
         },
         {
-          "id": "a12",
+          "id": "iqb_time_stimulus",
           "label": [
             {
               "lang": "de",
-              "value": "Vokabular Aufgabe Implicit"
+              "value": "Stimuluszeit"
             }
           ],
-          "type": "vocabulary",
+          "type": "number",
           "parameters": {
-            "url": "https://w3id.org/iqb/v34/se/",
-            "allowMultipleValues": true,
-            "hideNumbering": false
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
           }
-        },
+        }
+      ]
+    },
+    {
+      "label": [
         {
-          "id": "a13",
+          "lang": "de",
+          "value": "Quelle"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_spf",
           "label": [
             {
               "lang": "de",
-              "value": "Vokabular Aufgabe In-form"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v34/se/",
-            "allowMultipleValues": true,
-            "hideNumbering": false,
-            "selectionMode": "in-form"
-          }
-        },
-        {
-          "id": "a3",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Boolean Aufgabe JA/NEIN"
+              "value": "Für SPF geeignet"
             }
           ],
           "type": "boolean",
@@ -83,18 +90,34 @@
               }
             ]
           }
-        },{
-          "id": "a4",
+        },
+        {
+          "id": "iqb_note_field",
           "label": [
             {
               "lang": "de",
-              "value": "Number Aufgabe"
+              "value": "Notizfeld"
             }
           ],
-          "type": "number",
+          "type": "text",
           "parameters": {
-            "minValue": 0,
-            "digits": 0
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_sekundarfarben",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Sekundarfärben"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v99/sc/",
+            "allowMultipleValues": true,
+            "hideNumbering": true,
+            "selectionMode": "dialog"
           }
         }
       ]

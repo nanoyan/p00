@@ -2,7 +2,7 @@
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p00/master/item.json",
   "label": [{
     "lang": "de",
-    "value": "Testprofil - Item"
+    "value": "Testprofil International - Item"
   }],
   "groups": [
     {
@@ -14,20 +14,7 @@
       ],
       "entries": [
         {
-          "id": "w2",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Freitext Item A"
-            }
-          ],
-          "type": "text",
-          "parameters": {
-            "format": "single"
-          }
-        },
-        {
-          "id": "w3",
+          "id": "b0",
           "label": [
             {
               "lang": "de",
@@ -49,33 +36,150 @@
               }
             ]
           }
-        },{
-          "id": "w4",
+        },
+        {
+          "id": "iqb_word_count",
           "label": [
             {
               "lang": "de",
-              "value": "Number Item"
+              "value": "Wortanzahl"
             }
           ],
           "type": "number",
           "parameters": {
             "minValue": 0,
-            "digits": 0,
-            "isPeriodSeconds": true
+            "digits": 0
           }
-        },{
-          "id": "w5",
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Bildungstandards"
+        }
+      ],
+      "entries": [
+        {
+          "id": "s1",
           "label": [
             {
               "lang": "de",
-              "value": "Test Vokabular"
+              "value": "Funktionale ESA"
             }
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "https://w3id.org/iqb/v99/v3/",
+            "url": "https://w3id.org/iqb/v56/fe/",
             "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Funktionale MSA"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v56/fm/",
+            "allowMultipleValues": true,
+            "hideNumbering": true,
             "maxLevel": 1
+          }
+        },
+        {
+          "id": "s3",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Sprachbewusstheit ESA"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v56/be/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s4",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Sprachbewusstheit MSA"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v56/bm/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s5",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Interkulturelle Kompetenz ESA"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v56/fe/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s6",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Interkulturelle Kompetenz MSA"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v56/im/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s7",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Text- und Medienkompetenz ESA"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v56/te/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s8",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Text- und Medienkompetenz MSA"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v56/tm/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
           }
         }
       ]

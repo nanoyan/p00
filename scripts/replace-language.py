@@ -5,7 +5,7 @@ from pathlib import Path
 # Paths
 input_qmd = Path("index.qmd")
 language_file = Path("scripts/replace-to-tags.yml")
-output_qmd = Path("output/template.qmd")
+output_qmd = Path("scripts/template.txt")
 
 # Read files
 qmd_text = input_qmd.read_text(encoding="utf-8")

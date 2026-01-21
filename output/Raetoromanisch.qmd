@@ -1,8 +1,9 @@
 ---
-title: IQB Testprofil
+title: IQB Testprofil International
+lang: en
 ---
 
-ID of profile-store: `ptest`
+ID of profile-store: `ptesti`
 
 Creatur: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
@@ -12,26 +13,51 @@ Creatur: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p00/master/unit.json`
 
+## Stimulus
+
 | Num/Label | tip | Parameter | ID profil register |
 | :--- | :---: | :--- | :---: |
-| vocabulari Aufgabe Dialog | [vocabulari](https://w3id.org/iqb/v34/se/) | url: 'https://w3id.org/iqb/v34/se/', Elecziun multipla, preschentaziun: dialogbox | a11 |
-| vocabulari Aufgabe Implicit | [vocabulari](https://w3id.org/iqb/v34/se/) | url: 'https://w3id.org/iqb/v34/se/', Elecziun multipla, preschentaziun: dialogbox | a12 |
-| vocabulari Aufgabe In-form | [vocabulari](https://w3id.org/iqb/v34/se/) | url: 'https://w3id.org/iqb/v34/se/', Elecziun multipla, preschentaziun integrada | a13 |
-| Boolean Aufgabe JA/NEIN | gea/na | Text per VAIR: ja, Text per FAUSS: nein | a3 |
-| Number Aufgabe | nomer | Commastels: 0, valur minimala: 0, valur maximala: nagin | a4 |
+| Entwickler:in | text | Einzeilig, Lingua(s): rm   | iqb_author |
+| Grundfärben | [vocabulari](https://w3id.org/iqb/v99/pc/) | url: 'https://w3id.org/iqb/v99/pc/', Elecziun multipla, preschentaziun: dialogbox | iqb_grundfarben |
+| Stimuluszeit | nomer | Commastels: 0, valur minimala: 0, valur maximala: nagin, sco secondas | iqb_time_stimulus |
 
 : {tbl-colwidths="[15,15,55,15]"}
 
-# Testprofil - Item
-
-ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p00/master/item.json`
+## Quelle
 
 | Num/Label | tip | Parameter | ID profil register |
 | :--- | :---: | :--- | :---: |
-| Freitext Item A | text | Einzeilig, Lingua(s): ro   | w2 |
-| Boolean Item | gea/na | Text per VAIR: störend, Text per FAUSS: nicht relevant | w3 |
-| Number Item | nomer | Commastels: 0, valur minimala: 0, valur maximala: nagin, sco secondas | w4 |
-| Test vocabulari | [vocabulari](https://w3id.org/iqb/v99/v3/) | url: 'https://w3id.org/iqb/v99/v3/', Elecziun multipla, mussescha mo emprim nivel, preschentaziun: dialogbox | w5 |
+| Für SPF geeignet | gea/na | Text per VAIR: ja, Text per FAUSS: nein | iqb_spf |
+| Notizfeld | text | Mehrzeilig, Lingua(s): rm   | iqb_note_field |
+| Sekundarfärben | [vocabulari](https://w3id.org/iqb/v99/sc/) | url: 'https://w3id.org/iqb/v99/sc/', Elecziun multipla, preschentaziun: dialogbox, numeraziun supprimida | iqb_sekundarfarben |
+
+: {tbl-colwidths="[15,15,55,15]"}
+
+# Testprofil International - Item
+
+ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p00/master/item.json`
+
+## Item
+
+| Num/Label | tip | Parameter | ID profil register |
+| :--- | :---: | :--- | :---: |
+| Boolean Item | gea/na | Text per VAIR: störend, Text per FAUSS: nicht relevant | b0 |
+| Wortanzahl | nomer | Commastels: 0, valur minimala: 0, valur maximala: nagin | iqb_word_count |
+
+: {tbl-colwidths="[15,15,55,15]"}
+
+## Bildungstandards
+
+| Num/Label | tip | Parameter | ID profil register |
+| :--- | :---: | :--- | :---: |
+| Funktionale ESA | [vocabulari](https://w3id.org/iqb/v56/fe/) | url: 'https://w3id.org/iqb/v56/fe/', Elecziun multipla, preschentaziun: dialogbox, numeraziun supprimida | s1 |
+| Funktionale MSA | [vocabulari](https://w3id.org/iqb/v56/fm/) | url: 'https://w3id.org/iqb/v56/fm/', Elecziun multipla, mussescha mo emprim nivel, preschentaziun: dialogbox, numeraziun supprimida | s2 |
+| Sprachbewusstheit ESA | [vocabulari](https://w3id.org/iqb/v56/be/) | url: 'https://w3id.org/iqb/v56/be/', Elecziun multipla, preschentaziun: dialogbox, numeraziun supprimida | s3 |
+| Sprachbewusstheit MSA | [vocabulari](https://w3id.org/iqb/v56/bm/) | url: 'https://w3id.org/iqb/v56/bm/', Elecziun multipla, preschentaziun: dialogbox, numeraziun supprimida | s4 |
+| Interkulturelle Kompetenz ESA | [vocabulari](https://w3id.org/iqb/v56/fe/) | url: 'https://w3id.org/iqb/v56/fe/', Elecziun multipla, preschentaziun: dialogbox, numeraziun supprimida | s5 |
+| Interkulturelle Kompetenz MSA | [vocabulari](https://w3id.org/iqb/v56/im/) | url: 'https://w3id.org/iqb/v56/im/', Elecziun multipla, preschentaziun: dialogbox, numeraziun supprimida | s6 |
+| text- und Medienkompetenz ESA | [vocabulari](https://w3id.org/iqb/v56/te/) | url: 'https://w3id.org/iqb/v56/te/', Elecziun multipla, preschentaziun: dialogbox, numeraziun supprimida | s7 |
+| text- und Medienkompetenz MSA | [vocabulari](https://w3id.org/iqb/v56/tm/) | url: 'https://w3id.org/iqb/v56/tm/', Elecziun multipla, preschentaziun: dialogbox, numeraziun supprimida | s8 |
 
 : {tbl-colwidths="[15,15,55,15]"}
 

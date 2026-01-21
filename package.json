@@ -1,22 +1,22 @@
 {
-  "name": "p99",
-  "version": "0.4.0",
+  "name": "p00",
+  "version": "0.1.0",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC0-1.0",
-  "description": "Description Testprofil",
+  "description": "Testprofil International",
   "scripts": {
     "validate": "validate-md-profile && validate-md-profile -md"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iqb-vocabs/p99.git"
+    "url": "git+https://github.com/iqb-vocabs/p00.git"
   },
   "bugs": {
-    "url": "https://github.com/iqb-vocabs/p99/issues"
+    "url": "https://github.com/iqb-vocabs/p00/issues"
   },
-  "homepage": "https://github.com/iqb-vocabs/p99#readme",
+  "homepage": "https://github.com/iqb-vocabs/p00#readme",
   "dependencies": {
-    "@iqb/validate-md-profile": "^0.10.0"
+    "@iqb/validate-md-profile": "^0.10.1"
   }
 }
 

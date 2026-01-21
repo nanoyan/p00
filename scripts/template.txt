@@ -1,0 +1,63 @@
+---
+title: IQB Testprofil International
+id-lang
+---
+
+id-profile-store: `ptesti`
+
+profile-creator: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
+
+2 profile-various:
+
+# Testprofil - Aufgabe
+
+id-profile: `https://raw.githubusercontent.com/iqb-vocabs/p00/master/unit.json`
+
+## Stimulus
+
+| table-name-label | table-data-type | table-parameter | table-id-parameter |
+| :--- | :---: | :--- | :---: |
+| Entwickler:in | data-type-text | parameter-textfield, parameter-language   | iqb_author |
+| Grundfärben | [data-type-vocabulary](https://w3id.org/iqb/v99/pc/) | url: 'https://w3id.org/iqb/v99/pc/', parameter-more-times, parameter-dialog | iqb_grundfarben |
+| Stimuluszeit | data-type-number | parameter-decimal: 0, parameter-min-value: 0, parameter-max-value: parameter-noone, parameter-seconds | iqb_time_stimulus |
+
+: {tbl-colwidths="[15,15,55,15]"}
+
+## Quelle
+
+| table-name-label | table-data-type | table-parameter | table-id-parameter |
+| :--- | :---: | :--- | :---: |
+| Für SPF geeignet | data-type-bool | parameter-yes: ja, parameter-no: nein | iqb_spf |
+| Notizfeld | data-type-text | parameter-textarea, parameter-language   | iqb_note_field |
+| Sekundarfärben | [data-type-vocabulary](https://w3id.org/iqb/v99/sc/) | url: 'https://w3id.org/iqb/v99/sc/', parameter-more-times, parameter-dialog, parameter-hide-notation | iqb_sekundarfarben |
+
+: {tbl-colwidths="[15,15,55,15]"}
+
+# Testprofil International - Item
+
+id-profile: `https://raw.githubusercontent.com/iqb-vocabs/p00/master/item.json`
+
+## Item
+
+| table-name-label | table-data-type | table-parameter | table-id-parameter |
+| :--- | :---: | :--- | :---: |
+| Boolean Item | data-type-bool | parameter-yes: störend, parameter-no: nicht relevant | b0 |
+| Wortanzahl | data-type-number | parameter-decimal: 0, parameter-min-value: 0, parameter-max-value: parameter-noone | iqb_word_count |
+
+: {tbl-colwidths="[15,15,55,15]"}
+
+## Bildungstandards
+
+| table-name-label | table-data-type | table-parameter | table-id-parameter |
+| :--- | :---: | :--- | :---: |
+| Funktionale ESA | [data-type-vocabulary](https://w3id.org/iqb/v56/fe/) | url: 'https://w3id.org/iqb/v56/fe/', parameter-more-times, parameter-dialog, parameter-hide-notation | s1 |
+| Funktionale MSA | [data-type-vocabulary](https://w3id.org/iqb/v56/fm/) | url: 'https://w3id.org/iqb/v56/fm/', parameter-more-times, parameter-deep, parameter-dialog, parameter-hide-notation | s2 |
+| Sprachbewusstheit ESA | [data-type-vocabulary](https://w3id.org/iqb/v56/be/) | url: 'https://w3id.org/iqb/v56/be/', parameter-more-times, parameter-dialog, parameter-hide-notation | s3 |
+| Sprachbewusstheit MSA | [data-type-vocabulary](https://w3id.org/iqb/v56/bm/) | url: 'https://w3id.org/iqb/v56/bm/', parameter-more-times, parameter-dialog, parameter-hide-notation | s4 |
+| Interkulturelle Kompetenz ESA | [data-type-vocabulary](https://w3id.org/iqb/v56/fe/) | url: 'https://w3id.org/iqb/v56/fe/', parameter-more-times, parameter-dialog, parameter-hide-notation | s5 |
+| Interkulturelle Kompetenz MSA | [data-type-vocabulary](https://w3id.org/iqb/v56/im/) | url: 'https://w3id.org/iqb/v56/im/', parameter-more-times, parameter-dialog, parameter-hide-notation | s6 |
+| data-type-text- und Medienkompetenz ESA | [data-type-vocabulary](https://w3id.org/iqb/v56/te/) | url: 'https://w3id.org/iqb/v56/te/', parameter-more-times, parameter-dialog, parameter-hide-notation | s7 |
+| data-type-text- und Medienkompetenz MSA | [data-type-vocabulary](https://w3id.org/iqb/v56/tm/) | url: 'https://w3id.org/iqb/v56/tm/', parameter-more-times, parameter-dialog, parameter-hide-notation | s8 |
+
+: {tbl-colwidths="[15,15,55,15]"}
+

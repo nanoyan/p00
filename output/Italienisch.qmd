@@ -1,8 +1,9 @@
 ---
-title: IQB Testprofil
+title: IQB Testprofil International
+lang: it
 ---
 
-ID archivio profili: `ptest`
+ID archivio profili: `ptesti`
 
 Creatore: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
@@ -12,26 +13,51 @@ Creatore: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 ID del profilo: `https://raw.githubusercontent.com/iqb-vocabs/p00/master/unit.json`
 
+## Stimulus
+
 | Nome/Etichetta | Tipo | Parametro | ID voce profilo |
 | :--- | :---: | :--- | :---: |
-| Vocabolario Aufgabe Dialog | [Vocabolario](https://w3id.org/iqb/v34/se/) | url: 'https://w3id.org/iqb/v34/se/', selezione multipla, rappresentazione: finestra di dialogo | a11 |
-| Vocabolario Aufgabe Implicit | [Vocabolario](https://w3id.org/iqb/v34/se/) | url: 'https://w3id.org/iqb/v34/se/', selezione multipla, rappresentazione: finestra di dialogo | a12 |
-| Vocabolario Aufgabe In-form | [Vocabolario](https://w3id.org/iqb/v34/se/) | url: 'https://w3id.org/iqb/v34/se/', selezione multipla, rappresentazione integrata | a13 |
-| Boolean Aufgabe JA/NEIN | Sì/No | testo per VERO: ja, testo per FALSO: nein | a3 |
-| Number Aufgabe | Numero | cifre decimali: 0, valore minimo: 0, Valore massimo: nessuno | a4 |
+| Entwickler:in | Testo | una riga, Lingua/e: it   | iqb_author |
+| Grundfärben | [Vocabolario](https://w3id.org/iqb/v99/pc/) | url: 'https://w3id.org/iqb/v99/pc/', selezione multipla, rappresentazione: finestra di dialogo | iqb_grundfarben |
+| Stimuluszeit | Numero | cifre decimali: 0, valore minimo: 0, Valore massimo: nessuno, in secondi | iqb_time_stimulus |
 
 : {tbl-colwidths="[15,15,55,15]"}
 
-# Testprofil - Item
-
-ID del profilo: `https://raw.githubusercontent.com/iqb-vocabs/p00/master/item.json`
+## Quelle
 
 | Nome/Etichetta | Tipo | Parametro | ID voce profilo |
 | :--- | :---: | :--- | :---: |
-| Freitext Item A | Testo | una riga, Lingua/e: it   | w2 |
-| Boolean Item | Sì/No | testo per VERO: störend, testo per FALSO: nicht relevant | w3 |
-| Number Item | Numero | cifre decimali: 0, valore minimo: 0, Valore massimo: nessuno, in secondi | w4 |
-| Test Vocabolario | [Vocabolario](https://w3id.org/iqb/v99/v3/) | url: 'https://w3id.org/iqb/v99/v3/', selezione multipla, mostra solo il primo livello, rappresentazione: finestra di dialogo | w5 |
+| Für SPF geeignet | Sì/No | testo per VERO: ja, testo per FALSO: nein | iqb_spf |
+| Notizfeld | Testo | più righe, Lingua/e: it   | iqb_note_field |
+| Sekundarfärben | [Vocabolario](https://w3id.org/iqb/v99/sc/) | url: 'https://w3id.org/iqb/v99/sc/', selezione multipla, rappresentazione: finestra di dialogo, numerazione soppressa | iqb_sekundarfarben |
+
+: {tbl-colwidths="[15,15,55,15]"}
+
+# Testprofil International - Item
+
+ID del profilo: `https://raw.githubusercontent.com/iqb-vocabs/p00/master/item.json`
+
+## Item
+
+| Nome/Etichetta | Tipo | Parametro | ID voce profilo |
+| :--- | :---: | :--- | :---: |
+| Boolean Item | Sì/No | testo per VERO: störend, testo per FALSO: nicht relevant | b0 |
+| Wortanzahl | Numero | cifre decimali: 0, valore minimo: 0, Valore massimo: nessuno | iqb_word_count |
+
+: {tbl-colwidths="[15,15,55,15]"}
+
+## Bildungstandards
+
+| Nome/Etichetta | Tipo | Parametro | ID voce profilo |
+| :--- | :---: | :--- | :---: |
+| Funktionale ESA | [Vocabolario](https://w3id.org/iqb/v56/fe/) | url: 'https://w3id.org/iqb/v56/fe/', selezione multipla, rappresentazione: finestra di dialogo, numerazione soppressa | s1 |
+| Funktionale MSA | [Vocabolario](https://w3id.org/iqb/v56/fm/) | url: 'https://w3id.org/iqb/v56/fm/', selezione multipla, mostra solo il primo livello, rappresentazione: finestra di dialogo, numerazione soppressa | s2 |
+| Sprachbewusstheit ESA | [Vocabolario](https://w3id.org/iqb/v56/be/) | url: 'https://w3id.org/iqb/v56/be/', selezione multipla, rappresentazione: finestra di dialogo, numerazione soppressa | s3 |
+| Sprachbewusstheit MSA | [Vocabolario](https://w3id.org/iqb/v56/bm/) | url: 'https://w3id.org/iqb/v56/bm/', selezione multipla, rappresentazione: finestra di dialogo, numerazione soppressa | s4 |
+| Interkulturelle Kompetenz ESA | [Vocabolario](https://w3id.org/iqb/v56/fe/) | url: 'https://w3id.org/iqb/v56/fe/', selezione multipla, rappresentazione: finestra di dialogo, numerazione soppressa | s5 |
+| Interkulturelle Kompetenz MSA | [Vocabolario](https://w3id.org/iqb/v56/im/) | url: 'https://w3id.org/iqb/v56/im/', selezione multipla, rappresentazione: finestra di dialogo, numerazione soppressa | s6 |
+| Testo- und Medienkompetenz ESA | [Vocabolario](https://w3id.org/iqb/v56/te/) | url: 'https://w3id.org/iqb/v56/te/', selezione multipla, rappresentazione: finestra di dialogo, numerazione soppressa | s7 |
+| Testo- und Medienkompetenz MSA | [Vocabolario](https://w3id.org/iqb/v56/tm/) | url: 'https://w3id.org/iqb/v56/tm/', selezione multipla, rappresentazione: finestra di dialogo, numerazione soppressa | s8 |
 
 : {tbl-colwidths="[15,15,55,15]"}
 

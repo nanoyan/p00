@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Paths
 i18n_dir = Path("i18n")
-input_qmd = Path("output/template.qmd")
+input_qmd = Path("scripts/template.txt")
 output_dir = Path("output")
 
 translations = {}
