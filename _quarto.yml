@@ -14,7 +14,7 @@ website:
         text: "IQB Testprofil"
     right:
       - icon: github
-        href: https://iqb-vocabs.github.io/p00
+        href: https://github.com/iqb-vocabs/p00
         aria-label: Source Code
   sidebar:
     style: "docked"
