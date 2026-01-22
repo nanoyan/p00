@@ -2,10 +2,10 @@ project:
   type: website
 
 website:
-  site-url: https://nanoyan.github.io/p00/
+  site-url: https://iqb-vocabs.github.io/p00/
   favicon: favicon.ico
   page-navigation: true
-  repo-url: https://github.com/nanoyan/p00/
+  repo-url: https://iqb-vocabs.github.io/p00/
   navbar:
     logo: iqb-logo-black.png
     search: true
@@ -14,7 +14,7 @@ website:
         text: "IQB Testprofil"
     right:
       - icon: github
-        href: https://github.com/nanoyan/p00
+        href: https://iqb-vocabs.github.io/p00
         aria-label: Source Code
   sidebar:
     style: "docked"
