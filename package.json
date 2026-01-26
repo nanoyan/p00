@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iqb-vocabs/p00.git"
+    "url": "git+https://github.com/nanoyan/p00.git"
   },
   "bugs": {
-    "url": "https://github.com/iqb-vocabs/p00/issues"
+    "url": "https://github.com/nanoyan/p00/issues"
   },
-  "homepage": "https://github.com/iqb-vocabs/p00#readme",
+  "homepage": "https://github.com/nanoyan/p00#readme",
   "dependencies": {
     "@iqb/validate-md-profile": "^0.10.1"
   }
