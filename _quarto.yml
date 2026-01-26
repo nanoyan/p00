@@ -11,7 +11,7 @@ website:
     search: true
     left:
       - href: index.qmd
-        text: "IQB Testprofil"
+        text: "IQB Testprofil 2"
     right:
       - icon: github
         href: https://github.com/nanoyan/p00
