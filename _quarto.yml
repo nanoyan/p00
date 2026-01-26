@@ -2,10 +2,10 @@ project:
   type: website
 
 website:
-  site-url: https://iqb-vocabs.github.io/p00/
+  site-url: https://nanoyan.github.io/p00/
   favicon: favicon.ico
   page-navigation: true
-  repo-url: https://github.com/iqb-vocabs/p00/
+  repo-url: https://github.com/nanoyan/p00/
   navbar:
     logo: iqb-logo-black.png
     search: true
@@ -14,7 +14,7 @@ website:
         text: "IQB Testprofil"
     right:
       - icon: github
-        href: https://github.com/iqb-vocabs/p00
+        href: https://github.com/nanoyan/p00
         aria-label: Source Code
   sidebar:
     style: "docked"
@@ -22,19 +22,19 @@ website:
     collapse-level: 2
     contents:
       - href: output/Deutsch.qmd
-        text: "Deutsch"
+        text: "de"
         lang: de
       - href: output/Englisch.qmd
-        text: "Englisch"
+        text: "en"
         lang: en    
       - href: output/Franzoesisch.qmd
-        text: "Französisch"
+        text: "fr"
         lang: fr
       - href: output/Italienisch.qmd
-        text: "Italienisch"
+        text: "it"
         lang: it
       - href: output/Raetoromanisch.qmd
-        text: "Rätoromanisch"
+        text: "rm"
         lang: en                     
 
 
