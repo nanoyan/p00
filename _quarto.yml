@@ -22,19 +22,19 @@ website:
     collapse-level: 2
     contents:
       - href: output/Deutsch.qmd
-        text: "de"
+        text: "Deutsch"
         lang: de
       - href: output/Englisch.qmd
-        text: "en"
+        text: "Englisch"
         lang: en    
       - href: output/Franzoesisch.qmd
-        text: "fr"
+        text: "Französisch"
         lang: fr
       - href: output/Italienisch.qmd
-        text: "it"
+        text: "Italienisch"
         lang: it
       - href: output/Raetoromanisch.qmd
-        text: "rm"
+        text: "Rätoromanish"
         lang: en                     
 
 
