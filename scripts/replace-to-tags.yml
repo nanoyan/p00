@@ -28,4 +28,9 @@ kein: parameter-noone
 'als Sekunden': parameter-seconds
 Einzeilig: parameter-textfield
 Mehrzeilig: parameter-textarea
-'Sprache(n): de':  parameter-language 
+'Sprache(n): de':  parameter-language
+Deutsch: page-language-de
+Englisch: page-language-en
+Französisch: page-language-fr
+Italienisch: page-language-it
+Rätoromanish: page-language-rm
